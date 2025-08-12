@@ -1,0 +1,70 @@
+# try:
+#     n=0
+#     res=100/n
+
+# except ZeroDivisionError:
+#     print("zero division nadanada")
+
+# except ValueError:
+#     print('enter a valid number')
+
+# else:
+#     print('result is',res)
+
+# finally:
+#     print('exe cmp')
+
+# <------------------------------------------------->
+
+# try:
+#     n=int(input("enter a strimg:"))
+#     res=100/n
+
+# except ZeroDivisionError:
+#     print("zero division nadanada")
+
+# except ValueError:
+#     print('enter a valid number')
+
+# else:
+#     print('result is',res)
+
+# # finally:
+# #     print('exe cmp')
+
+# # <---------------------------------------------------->
+
+# a=["10","twenty","30"]
+
+# try:
+#     total = int(a[0]+int(a[1]))
+
+# except(ValueError,TypeError)as e:
+#     print("error",e)
+
+
+# except indexError:
+#     print("index out of range")
+
+# <------------------------------------------------------->
+
+n=int(input("enter a strimg:"))
+b=int(input("enter a strimg:"))
+
+try:
+    bus=n/b
+except ZeroDivisionError:
+    print("who even divides by zero")
+
+except ValueError:
+    print("is that a number?")
+
+except TypeError:
+    print("check again")
+
+else:
+    print("result=",bus)
+
+finally:
+    print('wow')
+    
