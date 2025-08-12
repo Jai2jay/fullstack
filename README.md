@@ -1,2 +1,2 @@
-# fullstack
-anj
+# hair py
+seminar
