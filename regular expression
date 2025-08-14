@@ -1,0 +1,14 @@
+import re
+
+txt = "hello hell hal lo el"
+x = re.findall("el",txt)
+print (x)
+
+r = re.search("\s",txt) #\s = white space
+print("first occurance of white space",r.start())
+
+u = re.split("h",txt)
+print(u)
+
+t = re.sub("ll","o",txt)
+print(t)
