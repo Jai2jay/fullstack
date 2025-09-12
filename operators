@@ -1,0 +1,30 @@
+# import numpy as np
+
+# matrix = np.array([[2,3,4],[1,0,0],[5,5,0]])
+# # print(np.sum(matrix, axis=None))
+# # print(np.sum(matrix))
+# # print(np.mean(matrix, axis=0))
+# # print(np.min(matrix, axis=1))
+# # print(np.sum(matrix, axis=0))
+
+
+# # print(np.mean(matrix, axis=None))
+# # print(np.cumsum(matrix, axis=None))
+# # print(np.cumsum(matrix, axis=None))
+# # print(np.cumsum(matrix, axis=1))
+# # print(np.cumsum(matrix, axis=0))
+# # print(np.cumsum(matrix))
+
+# # matriX= np.array([[5,5,0],[5,0,0],[7,6,5]])
+
+# # print(np.equal(matrix,matriX))
+# # print((np.matrix==np.matrix))
+
+
+# # print(np.array_equal(matrix,matriX))
+
+# b=matrix.astype(bool)
+# print(b)
+
+# m=np.array([[1,2,3,4,0]],dtype=bool)
+# print(m)
