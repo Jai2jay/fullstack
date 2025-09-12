@@ -11,3 +11,12 @@ print(r)
 
 # print(d)
 # print(masked.mean())
+
+
+
+
+
+
+marks = np.array([100,4,60,46,36,78,66,43,67])
+failed =  marks[marks < 40]
+print("failed",failed)
