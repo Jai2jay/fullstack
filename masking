@@ -1,0 +1,13 @@
+import numpy as np
+import numpy.ma as ma
+
+d= np.array([3,3,3,0])
+# masked = ma.masked_equal(d,0)
+mask = d < 3
+print(mask)
+
+r=d[mask]
+print(r)
+
+# print(d)
+# print(masked.mean())
