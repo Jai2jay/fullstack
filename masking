@@ -25,3 +25,11 @@ mask=marks > 10
 
 marks[mask]=0
 print(marks)
+
+# fancy indexing
+
+x = np.arange(1,11)
+print(x)
+
+y = np.array([3,4,5])
+print(x[y])
