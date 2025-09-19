@@ -81,3 +81,19 @@ print(ars)
 
 arse = ar[ars]
 print(arse)
+
+
+
+
+import numpy as np
+ar = np.array([10,4,6,1])
+
+ars=np.argsort(ar)
+print(ars)
+
+
+
+arse = ar[ars]
+reverse=arse[::-1]
+print(reverse)
+
