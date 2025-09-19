@@ -71,3 +71,13 @@ row=[3,3]
 col=[3,3]
 s=t[row,col]
 print(s)
+
+
+#argsort
+ar = np.array([10,4,6,1])
+
+ars=np.argsort(ar)
+print(ars)
+
+arse = ar[ars]
+print(arse)
