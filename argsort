@@ -27,7 +27,10 @@ dtype=dt)
 print(d)
 print(d['name'])
 
+print(d[0])
 
+out:
 [('beti', 20, 46.5) ('elle', 21, 54.5)]
 ['beti' 'elle']
+('beti', 20, 46.5)
 
