@@ -15,3 +15,19 @@ joe 10
 loe 4
 moe 6
 toe 1
+
+
+
+import numpy as np
+
+# structuredd array
+dt = np.dtype([('name',(np.str_,10)),('age',(np.int32)),('weight',np.float64)])
+d=np.array([('beti',20,46.5),('elle',21,54.5)],
+dtype=dt)
+print(d)
+print(d['name'])
+
+
+[('beti', 20, 46.5) ('elle', 21, 54.5)]
+['beti' 'elle']
+
