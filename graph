@@ -35,3 +35,18 @@ counts = [5, 3, 8, 2]
 plt.pie(counts, labels=fruits, autopct='%1.1f%%', startangle=140, colors=["#ff0000","#0074e8","#00fc00","#ff8000"])
 plt.title('Fruit Distribution')
 plt.show()
+
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns   
+import pandas as pd 
+
+data = pd.DataFrame({
+    'subject': ['Math']*5 + ['English']*5,
+    'score': [88, 92, 95, 70, 85, 78, 80, 75, 90, 82]
+})
+
+sns.violinplot(x='subject', y='score', data=data,palette='pastel')
+plt.title('Violin plot of scores by subject')
+plt.show()
