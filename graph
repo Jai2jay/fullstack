@@ -25,3 +25,13 @@ plt.title('Histogram of quiz')
 plt.xlabel('Score')
 plt.ylabel('Number of students')    
 plt.show()
+
+
+import matplotlib.pyplot as plt
+
+fruits = ['apple', 'banana', 'cherry', 'date']
+counts = [5, 3, 8, 2]
+
+plt.pie(counts, labels=fruits, autopct='%1.1f%%', startangle=140, colors=["#ff0000","#0074e8","#00fc00","#ff8000"])
+plt.title('Fruit Distribution')
+plt.show()
