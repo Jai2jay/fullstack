@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+scores = [55,67,46,56,58,76,45,77,88,99,100,45,67,89,90]
+
+print("stem | leaf")
+for score in scores:
+    stem = score // 10
+    leaf = score % 10
+    print(f" {stem}  |  {leaf}")
+
+x = range(1,len(scores)+1)
+y = scores
+
+plt.stem(x,y,linefmt = 'C0-', markerfmt = 'o', basefmt = 'C3-')
+plt.title('Stem-plot of quiz')
+plt.xlabel('Student number')
+plt.ylabel('Score')
+plt.show()
